@@ -22,25 +22,25 @@ Before running the YouTube video downloader, ensure you have the following:
 1. Clone the repository to your local machine:
 
    
-   git clone https://github.com/SaM0978/Youtube-Video-Downloader.git
+   `git clone https://github.com/SaM0978/Youtube-Video-Downloader.git`
    
 
 2. Navigate to the project directory:
 
    
-   cd youtube-downloader
+   `cd youtube-downloader`
    
 
 3. Apply migrations to set up the database:
 
    
-   python manage.py migrate
+   `python manage.py migrate`
    
 
 4. Start the development server:
 
    
-   python manage.py runserver
+   `python manage.py runserver`
    
 
 5. Open your web browser and navigate to `http://localhost:8000` to access the YouTube video downloader.
